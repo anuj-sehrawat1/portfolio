@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Meeting - Anuj Sehrawat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="book-meeting.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Anuj Sehrawat</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Anuj Sehrawat</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="booking">
+      <p class="section__text__p1">Schedule a</p>
+      <h1 class="title">Meeting With Me</h1>
+      
+      <div class="booking-container">
+        <div class="booking-form-container">
+          <form id="meetingForm">
+            <div class="form-group">
+              <label for="name">Full Name*</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address*</label>
+              <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Phone Number (Optional)</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+            
+            <div class="form-group">
+              <label for="description">Meeting Description*</label>
+              <textarea id="description" name="description" rows="5" required placeholder="Please describe the purpose of the meeting"></textarea>
+            </div>
+            
+            <div class="btn-container">
+              <button type="submit" class="btn btn-color-1" id="submitBtn">
+                Submit Request
+              </button>
+            </div>
+          </form>
+          
+          <div id="formStatus" class="form-status"></div>
+        </div>
+        
+        <div class="booking-info">
+          <h2>What happens next?</h2>
+          <ol>
+            <li>I'll receive your meeting request instantly</li>
+            <li>I'll review your request and check my availability</li>
+            <li>I'll contact you via email with proposed meeting times</li>
+            <li>We'll confirm the final time and meeting platform (Zoom, Google Meet, etc.)</li>
+          </ol>
+          <p class="note">Note: Please allow up to 24 hours for a response. For urgent matters, you can reach me directly via <a href="https://t.me/tg_anujsehrawat">Telegram</a>.</p>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Anuj Sehrawat. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="book-meeting.js"></script>
+  </body>
+</html>
