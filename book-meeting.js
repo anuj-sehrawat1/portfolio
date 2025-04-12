@@ -1,7 +1,7 @@
 // Configuration for Telegram Bot
 // Replace these with your actual bot token and chat ID when provided
-let BOT_TOKEN = "YOUR_BOT_TOKEN"
-let CHAT_ID = "YOUR_CHAT_ID"
+let BOT_TOKEN = "7310109367:AAG02zVLQL6Badu41R1GrDsHtr89V08ASeE"
+let CHAT_ID = "5113640407"
 
 // Form submission handler
 document.addEventListener("DOMContentLoaded", () => {
