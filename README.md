@@ -8,7 +8,7 @@ An immersive, futuristic, dark-themed portfolio website with rich 3D visuals, fl
 
 ## 🚀 Live Demo
 
-Visit: [ma-79.vercel.app](https://ma-79.vercel.app)
+Visit: [anuj-sehrawat.site](https://www.anuj-sehrawat.site)
 
 ---
 
@@ -55,7 +55,7 @@ src/
 Clone the repository and set it up locally:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/anuj-sejrawat1/portfolio.git
 cd your-repo-name
 npm install
 npm run dev
